@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168504149-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168504149-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+  <link href = "https://fonts.googleapis.com/css?family=Roboto" rel = "stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Backyard Brains</title>
+</head>
+<body>
+  <a onclick="topFunction()" id="myBtn" href="#jump">Back to top</a>
+  <script src="js/portfolio.js"></script>
+  <a class = "jump" href="#jump">Jump to Content</a>
+  <header>
+    <h1 class="logo"><a href="index.html">Jen Foran</a></h1>
+    <nav>
+      <ul class="nav_bar">
+        <li class="nav_item active"><a href="projects.html">Projects</a></li>
+        <li class="nav_item"><a href="index.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="jump">
+
+    <div class="intro byb">
+      <img src="images/projects/byb.png" alt="Backyard Brains logo" class="project_image byb">
+      <div class="project_text byb">
+        <h1>User Experience Consultant</h1>
+        <p>For the University of Michigan's <em>SI 622: Needs Assessment and Usability Evaluation</em> course, I worked with three classmates to act as UX consultants for our assigned client, Backyard Brains.<br><br>Throughout the semester, we supported our client by conducting research, distilling findings, crafting recommendations, and holding weekly readouts to help communicate our work. Our semester concluded with high level findings that would help them meet their goals while ensure a more fulfilling user experience.</p>
+        <!-- <ul class="byb_list">
+          <li><a href="#research_methods">Research Methods</a></li>
+          <li><a href="#about_byb">About Backyard Brains</a></li>
+          <li><a href="#findings">Findings</a></li>
+          <li><a href="#project_recs">Recommendations</a></li>
+        </ul> -->
+      </div>
+    </div>
+
+
+    <div class="research_methods" id="research_methods">
+      <h1>Research Methods</h1>
+      <div class="research_methods_container">
+          <div class="research_methods_paragraph">
+            <p>My teammates and I used a number of different research techniques throughout the semester. For each, we created a research plan, executed on that plan, submitted a paper detailing methods, findings, and recommendations, and created a 5-minute presentation for the class and our client.</p>
+          </div>
+          <img src="images/byb/methods.png" alt="Backyard Brains project overview" class="research_methods_image">
+      </div>
+    </div>
+
+
+    <div class="about_byb" id="about_byb">
+      <h1>About Backyard Brains</h1>
+      <div class="about_byb_container">
+        <h2 class="background">Background</h2>
+          <p class="background_text">Backyard Brains is an Ann Arbor based company founded by Greg Gage and Tim Marzullo in 2009. It produces and sells non-professional neuroscience equipment that users can run experiments with.</p>
+        <h2 class="mission">Mission</h2>
+          <p class="mission_text">Make neuroscience accessible to everyone.</p>
+        <h2 class="target">Target User</h2>
+          <p class="target_text"> K-12 Teachers, Professors, Students, Hobbyists, Parents.</p>
+        <h2 class="problem">Problem</h2>
+          <p class="problem_text">The Backyard Brains team noticed a high bounce rate on their website and high call volume from both new and returning customers inquirying about products.</p>
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rSQNi5sAwuc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="byb_youtube"></iframe>
+    </div>
+
+
+    <div class="findings" id="findings">
+      <h1>Key Findings</h1>
+      <div class="findings_container">
+
+        <div class="finding one">
+          <h2 class="finding_one_header">Finding #1: Users Want Tailored Experiences as well as Search, Filter, and Sort Functionality</h2>
+            <p class="finding_one_one">Our interviews exposed the range of users interacting with the Backyard Brains website. Some stated they didn't know where to start while others indicated they didn't know what products were right for them. Although the users have different needs, the website was not equipped to handle all of these needs effectively.<br><br>To illustrate these different users and use cases, we created personas and user scenarios. Click on each to see more.</p>
+
+            <div class="personas">
+              <div class="persona_one">
+                <a href="images/byb/persona/persona1.pdf" target="_blank">Lindsay Hisner</a>
+              </div>
+              &nbsp;
+              &nbsp;
+              <div class="persona_one">
+                <a href="images/byb/persona/persona2.pdf" target="_blank">Ashlee<br> Smith</a>
+              </div>
+              &nbsp;
+              &nbsp;
+              <div class="persona_one">
+                <a href="images/byb/persona/persona3.pdf" target="_blank">Bill<br> Campster</a>
+              </div>
+            </div>
+
+            <p class="finding_one_two">
+              These features are commonly found across sites, particularly in the comparitor set where seven of the eights comparators had implemented both of these features on their own websites. Not having these features can erect unnecessary obstacles, while utlilizing them inconsistently can be confusing.
+
+              <img src="images/byb/comparator2.png" alt="Visual representation of how Backyard Brains compares to the comparators on filtering and user segmentation">
+            </p>
+
+            <p class="finding_one_three">In the card sorting activity, all participants placed Beginner, Intermediate and Advanced together, and 42% placed these cards together under an “Experiments” header.<br><br>Meanwhile, 85% of participants placed Top Kits for Educators, Top Kits for Students, and Top Kits for Enthusiasts together, while 30% placed these cards together under a “Store” header.<br><br>Together, these suggest that users expect some level of segmentation, sorting and filtering on sites they visit.</p>
+
+            <img src="images/byb/cardsort2.png" alt="Survey results showing card sort results" class="small">
+
+            <div class="finding_one_four">
+              <p>According to our heuristic evaluation, the Backyard Brains website violated the “User Control and Freedom” and “Flexibility and Efficiency of Use” heuristics. All team members pointed to a lack of searching and filtering for this violation. Our heuristic evaluations revealed that locating information within the Backyard Brains website can be difficult for those unfamiliar with the website, and even those that do have some level of familiarity. In combination with previous findings, we decided to explore this in the usability study.
+
+              <img src="images/byb/he1.png" alt="Visual representation of the heuristic evaluation results">
+              </p>
+              <div class="disclaimer">
+                <p>Please note: the size of the triangle represents the number of teammates that noted the heuristic was violated.</p>
+              </div>
+            </div>
+
+
+            <p class="finding_one_five">
+              Although there are filter and sort options on the experiments page, the usability study exposed that these are not useful to users. Grade-level based filters proved to be an onstacle when users tried to locate an experiment for specific products.
+
+              <img src="images/byb/byb_site.png" alt="A screenshot of the Backyard Brains website.">
+            </p>
+        </div>
+
+        <div class="finding two">
+          <h2 class="finding_two_header">Finding #2: Users Need and Want More Troubleshooting Materials</h2>
+            <p class="finding_two_one">Interviewees all felt that the experiments Backyard Brains offers on the website are great until something goes wrong. When that happens teachers said they risk losing control of the class and need to be able to quickly recover from errors.</p>
+
+            <div class="finding_two_two quote">
+              <p>“If there are 3 ways to break the kit, my students will find the 21st way.”</p>
+              <p class="author">- K-12 Teacher</p>
+            </div>
+
+            <p class="finding_two_three">
+              When guaging customer satisfaction across product set up, product usage, site product information, site experiments, site troubleshooting materials and site videos, survey results were generally positive for set up and site features. However, there was a relatively higher rate of dissatisfaction for troubleshooting material, particularly amongst teachers.
+
+              <img src="images/byb/survey1.png" alt="Survey results showing higher dissatisfaction rates for troubleshooting materials" class="finding_two_four">
+            </p>
+
+            <p class="finding_two_five">
+              Most of the more successful comparators offered troubleshooting materials in the form of How-to-Videos as well as written documentation. They also utilized alternative forms made available through community forums and product reviews. Some comparators even offered a FAQ page to address known troubleshooting challenges.
+
+              <img src="images/byb/comparator1.png" alt="Visual representation of how Backyard Brains compares to the comparators on troubleshooting material">
+            </p>
+
+            <div class="finding_two_six">
+              <p>All team members identified that the Backyard Brains website violated the "Help and Documenation" heuristic. Each of us stated that the lack of documentation or support for troubleshooting and setup was something we had considered when marking this violation.
+
+              <img src="images/byb/he2.png" alt="Visual representation of the heuristic evaluation results">
+              </p>
+
+              <div class="disclaimer">
+                <p>Please note: the size of the triangle represents the number of teammates that noted the heuristic was violated.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="finding three">
+          <h2 class="finding_three_header">Finding #3: Users Want Community and User-to-User Interaction</h2>
+            <p class="finding_three_one">Participants expressed an interest in connecting with other users as it acts as an easy way to solve problems as well as facilitates community. Some users said they contact Backyard Brains in order to ask their questions, while others stated they needed product recommendations. One interviewee specified that they wanted something similar to platforms like Stack Overflow.</p>
+
+            <div class="finding_three_two quote">
+              <p>“In order to stay current with the trends of the day, I feel that I have to constantly learn. I like to be a sponge and take in all types of knowledge. Forums like Stack Overflow create a supportive community for collective problem solving.”</p>
+              <p class="author">- Hobbyist</p>
+            </div>
+
+            <p class="finding_three_three">
+              Our comparative analysis revealed that the Product Reviews, Communities and Forums, as well as Product Recommendations were used to help communicate information to users. LittleBits, PSCO, and Udemy were particularly effective at integrating these features into their respective platforms.
+
+              <img src="images/byb/comparator3.png" alt="Visual representation of how Backyard Brains compares to the comparators on product reviews, community/forums, and product recommendations">
+            </p>
+
+            <p class="finding_three_three">During the usability study, we asked participants which ecommerce sites they use. All participants stated Amazon was one of their primary websites for online shopping. Many of them stated that the product reviews, rating systems, and recommendations on Amazon were important when making online purchasing decisions.
+
+            <img src="images/byb/byb_v_amazon.png" alt="Screenshots comparing Backyard Brains to Amazon's product pages and user-to-user interaction ">
+
+            </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="project_recs" id="project_recs">
+      <h1>Recommendations</h1>
+      <div class="project_recs_container">
+
+          <div class="rec_one_number">
+            <h2>1</h2>
+          </div>
+          <div class="rec_one_text">
+            <h3>Integrate troubleshooting materials</h3>
+              <p>To broadly resolve frequent issues and reduce call volume, we recommend including troubleshooting, how-to-videos, and FAQ material along with the product information, on the website.</p>
+          </div>
+
+          <div class="rec_two_number">
+            <h2>2</h2>
+          </div>
+          <div class="rec_two_text">
+            <h3>Segment users and tailor experiences</h3>
+              <p>Offer new users some direction by segmenting the users by persona. This will allow them to find the information that is most relevant to them and feel more confident as they navigate the site. This can help reduce both bounce rate and call volume.</p>
+          </div>
+
+          <div class="rec_three_number">
+            <h2>3</h2>
+          </div>
+          <div class="rec_three_text">
+            <h3>Create forums or user-to-user interactions</h3>
+              <p>A forum can build community amongst users and act as a spot to crowdsource ideas. Meanwhile a rating and review system can help users understand what is best for them from people just like them. This could lead to more sales and alleviate the need to consult a Backyard Brains employee.</p>
+          </div>
+
+
+          <div class="rec_four_number">
+            <h2>4</h2>
+          </div>
+          <div class="rec_four_text">
+            <h3>Define filter and sort features</h3>
+              <p>Features like search, sort, and filter can help users navigate more expansive product lines. More specifically, a search bar can help users who know what they want whereas sort and filter can those that don’t know what to search for. In doing so, the site can bring users to the things they want most without looking to other platforms or contacting the team.</p>
+          </div>
+
+
+          <div class="rec_five_number">
+            <h2>5</h2>
+          </div>
+          <div class="rec_five_text">
+            <h3>Maintain post-production surveys to assess customer experience and satisfaction</h3>
+              <p>The survey exposed meaningful information that could be useful for future design and management decisions. Consistant sampling could offer deeper insights into users' priorities and attitudes.</p>
+          </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="other_projects">
+      <h1>Other Projects</h1>
+        <div class="other_projects_container">
+          <div class="project_one">
+            <div class="flip_card">
+              <div class="flip_card_inner">
+                <div class="flip_card_front">
+                  <img src="images/projects/sonos.png" alt="SONOS logo">
+                </div>
+                <div class="flip_card_back">
+                  <a href="sonos.html">
+                    <h1>SONOS</h1>
+                    <p>Product Manager<br>Intern</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project_two">
+            <div class="flip_card">
+              <div class="flip_card_inner">
+                <div class="flip_card_front">
+                  <img src="images/projects/iworker.png" alt="iWorker logo">
+                </div>
+                <div class="flip_card_back">
+                  <a href="iworker.html">
+                    <h1>iWorker</h1>
+                    <p>Class Project</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_three">
+            <div class="flip_card">
+              <div class="flip_card_inner">
+                <div class="flip_card_front">
+                  <img src="images/projects/nielsen.png" alt="Nielsen logo">
+                </div>
+                <div class="flip_card_back">
+                  <a href="nielsen.html">
+                    <h1>Nielsen</h1>
+                    <p>Analytics Consultant</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+  </main>
+  <footer>
+      <p>© 2020 Designed & Coded by Jen Foran</p>
+      <a href="https://www.linkedin.com/in/jen-foran-2b642883/" target="_blank"><img src="images/footer/linkedin.png" alt="LinkedIn Logo, link to Jen's account"/></a>
+      <a href="https://github.com/jforan" target="_blank"><img src="images/footer/github.png" alt="Github Logo, link to Jen's account"/></a>
+  </footer>
+</body>
+</html>
